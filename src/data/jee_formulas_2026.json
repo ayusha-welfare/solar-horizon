@@ -1,0 +1,377 @@
+[
+    {
+        "subject": "Physics",
+        "formulas": [
+            {
+                "title": "Kinematics Equations",
+                "highlight": "v = u + at  |  s = ut + ½at²  |  v² = u² + 2as",
+                "content": "Valid only for constant acceleration (a).",
+                "tip": "s is displacement, not distance."
+            },
+            {
+                "title": "Projectile Motion",
+                "highlight": "R = (u² sin 2θ) / g  |  H = (u² sin²θ) / 2g",
+                "content": "Range (R) is max at θ = 45°. Time of flight T = (2u sin θ) / g.",
+                "tip": "Complementary angles (θ and 90-θ) have the same Range."
+            },
+            {
+                "title": "Work-Energy Theorem",
+                "highlight": "W_all = ΔK = K_f - K_i",
+                "content": "Work done by all forces (conservative + non-conservative) equals change in Kinetic Energy.",
+                "tip": "Valid in all inertial frames."
+            },
+            {
+                "title": "Center of Mass",
+                "highlight": "R_cm = (m₁r₁ + m₂r₂ + ...) / (m₁ + m₂ + ...)",
+                "content": "Weighted average position of mass.",
+                "tip": "For continuous bodies, use ∫ r dm / ∫ dm."
+            },
+            {
+                "title": "Moment of Inertia",
+                "highlight": "Ring: MR² | Disc: MR²/2 | Solid Sphere: 2/5 MR²",
+                "content": "Resistance to rotational motion.",
+                "tip": "Hollow sphere = 2/3 MR² (Hollow > Solid)."
+            },
+            {
+                "title": "Gravitational Potential Energy",
+                "highlight": "U = -GMm / r",
+                "content": "Potential energy at distance r from center.",
+                "tip": "At infinity, U = 0."
+            },
+            {
+                "title": "Escape Velocity",
+                "highlight": "v_e = √(2GM / R) = √(2gR)",
+                "content": "Minimum potential to escape gravitational field.",
+                "tip": "Independent of the mass of the projectile."
+            },
+            {
+                "title": "Simple Harmonic Motion (Energy)",
+                "highlight": "E = ½ mω²A²",
+                "content": "Total energy in SHM is constant.",
+                "tip": "K_max = U_max = Total Energy."
+            },
+            {
+                "title": "Doppler Effect",
+                "highlight": "f' = f (v ± v_o) / (v ∓ v_s)",
+                "content": "Observer moving towards source: numerator +",
+                "tip": "Think: Moving close increases frequency."
+            },
+            {
+                "title": "Young's Modulus",
+                "highlight": "Y = (F/A) / (ΔL/L)",
+                "content": "Stress / Strain within elastic limit.",
+                "tip": "Steel is more elastic than rubber."
+            },
+            {
+                "title": "Bernoulli's Principle",
+                "highlight": "P + ½ρv² + ρgh = Constant",
+                "content": "Conservation of energy for flowing fluids.",
+                "tip": "High speed = Low pressure."
+            },
+            {
+                "title": "Coulomb's Law",
+                "highlight": "F = k q₁q₂ / r²",
+                "content": "Force between two point charges. k = 9×10⁹.",
+                "tip": "Force is along the line joining centers."
+            },
+            {
+                "title": "Capacitance (Parallel Plate)",
+                "highlight": "C = ε₀A / d",
+                "content": "With dielectric K: C' = Kε₀A / d",
+                "tip": "Dielectric always increases capacitance."
+            },
+            {
+                "title": "Ohm's Law & Power",
+                "highlight": "V = IR  |  P = I²R = V²/R",
+                "content": "Voltage drop across resistor.",
+                "tip": "For series, P ∝ R. For parallel, P ∝ 1/R."
+            },
+            {
+                "title": "Magnetic Field (Circular Loop)",
+                "highlight": "B = (μ₀I) / (2R)",
+                "content": "Field at center of current carrying loop.",
+                "tip": "Use Right Hand Thumb Rule for direction."
+            },
+            {
+                "title": "Lorentz Force",
+                "highlight": "F = q(v × B)",
+                "content": "Force on moving charge in magnetic field.",
+                "tip": "Force is perpendicular to both v and B."
+            },
+            {
+                "title": "LCR Circuit Resonance",
+                "highlight": "ω₀ = 1 / √(LC)",
+                "content": "Condition where X_L = X_C (Inductive = Capacitive reactance).",
+                "tip": "Impedance Z is minimum (Z=R) at resonance."
+            },
+            {
+                "title": "Lens Maker's Formula",
+                "highlight": "1/f = (μ - 1)(1/R₁ - 1/R₂)",
+                "content": "Focal length of a lens depends on refractive index and curvature.",
+                "tip": "Sign convention is crucial."
+            },
+            {
+                "title": "Photoelectric Equation",
+                "highlight": "K_max = hν - Φ",
+                "content": "hν is photon energy, Φ is work function.",
+                "tip": "Slope of V_stopping vs frequency graph is h/e."
+            },
+            {
+                "title": "Bohr Model (Energy)",
+                "highlight": "E_n = -13.6 eV (Z²/n²)",
+                "content": "Energy levels of Hydrogen-like atoms.",
+                "tip": "Energy becomes less negative (increases) as n increases."
+            }
+        ]
+    },
+    {
+        "subject": "Chemistry",
+        "formulas": [
+            {
+                "title": "Molarity (M)",
+                "highlight": "M = n / V(L)",
+                "content": "Moles of solute per Litre of solution.",
+                "tip": "Temperature dependent (Volume changes with T)."
+            },
+            {
+                "title": "Bohr Radius",
+                "highlight": "r_n = 0.529 (n² / Z) Å",
+                "content": "Radius of nth orbit for H-like species.",
+                "tip": "Radius increases as n²."
+            },
+            {
+                "title": "Bond Order",
+                "highlight": "B.O. = ½ (N_b - N_a)",
+                "content": "Bonding electrons - Antibonding electrons.",
+                "tip": "Higher B.O. = Higher Stability, Shorter Bond Length."
+            },
+            {
+                "title": "Ideal Gas Equation",
+                "highlight": "PV = nRT",
+                "content": "Universal Gas Law. R = 0.0821 L atm / mol K or 8.314 J / mol K.",
+                "tip": "Check units of Pressure and Volume."
+            },
+            {
+                "title": "Root Mean Square Speed",
+                "highlight": "v_rms = √(3RT / M)",
+                "content": "Speed of gas molecules. M is molar mass in kg.",
+                "tip": "v_rms > v_avg > v_mp"
+            },
+            {
+                "title": "First Law of Thermodynamics",
+                "highlight": "ΔU = q + w",
+                "content": "Conservation of energy. Sign convention: q (heat given), w (work on system) is positive.",
+                "tip": "For adiabatic, q=0."
+            },
+            {
+                "title": "Gibbs Free Energy",
+                "highlight": "ΔG = ΔH - TΔS",
+                "content": "Spontaneity condition: ΔG < 0 is spontaneous.",
+                "tip": "At equilibrium, ΔG = 0."
+            },
+            {
+                "title": "pH of Buffer (Henderson)",
+                "highlight": "pH = pKa + log([Salt]/[Acid])",
+                "content": "For acidic buffer.",
+                "tip": "For basic buffer: pOH = pKb + log([Salt]/[Base])."
+            },
+            {
+                "title": "Work Done (Isothermal Rev)",
+                "highlight": "w = -2.303 nRT log(V₂/V₁)",
+                "content": "Maximum work done by gas in expansion.",
+                "tip": "Expansion work is negative."
+            },
+            {
+                "title": "Nernst Equation",
+                "highlight": "E = E° - (0.059/n) log Q",
+                "content": "Cell potential at non-standard conditions.",
+                "tip": "At equilibrium, E=0 and Q=K."
+            },
+            {
+                "title": "Faraday's First Law",
+                "highlight": "w = ZIt",
+                "content": "Mass deposited in electrolysis. Z = Equivalent Wt / 96500.",
+                "tip": "1 Faraday (96500 C) deposits 1 Gram Equivalent."
+            },
+            {
+                "title": "First Order Kinetics",
+                "highlight": "k = (2.303/t) log([A]₀/[A])",
+                "content": "Rate constant equation.",
+                "tip": "Half life t½ = 0.693/k (Independent of initial conc)."
+            },
+            {
+                "title": "Arrhenius Equation",
+                "highlight": "k = Ae^(-Ea/RT)",
+                "content": "Temperature dependence of rate constant.",
+                "tip": "log k vs 1/T gives slope -Ea/2.303R."
+            },
+            {
+                "title": "Osmotic Pressure",
+                "highlight": "π = iCRT",
+                "content": "Colligative property. i is Van't Hoff factor.",
+                "tip": "Best for polymer molar mass determination."
+            },
+            {
+                "title": "Bragg's Law",
+                "highlight": "nλ = 2d sin θ",
+                "content": "X-ray diffraction in crystals.",
+                "tip": "d is interplanar distance."
+            },
+            {
+                "title": "Spin Magnetic Moment",
+                "highlight": "μ = √(n(n+2)) BM",
+                "content": "n is number of unpaired electrons.",
+                "tip": "Fe³⁺ (d5) -> n=5, μ ≈ 5.9 BM."
+            },
+            {
+                "title": "Effective Atomic Number",
+                "highlight": "EAN = Z - Ox.State + 2(CN)",
+                "content": "Stability of coordination compounds.",
+                "tip": "Stable if EAN = Next noble gas Z."
+            },
+            {
+                "title": "Aldol Condensation",
+                "highlight": "Requires α-Hydrogen",
+                "content": "Aldehydes/Ketones with dilute base form β-hydroxy aldehyde.",
+                "tip": "Cannizzaro happens if NO α-Hydrogen."
+            },
+            {
+                "title": "Test for Unsaturation",
+                "highlight": "Br₂/H₂O or Baeyer's Reagent",
+                "content": "Decolorizes Red-Brown Bromine or Pink KMnO4.",
+                "tip": "Alkenes and Alkynes give positive test."
+            },
+            {
+                "title": "Hinsberg Reagent",
+                "highlight": "Benzenesulfonyl chloride",
+                "content": "Distinguishes 1°, 2°, 3° amines.",
+                "tip": "1° soluble in alkali, 2° insoluble, 3° no reaction."
+            }
+        ]
+    },
+    {
+        "subject": "Maths",
+        "formulas": [
+            {
+                "title": "Quadratic Roots",
+                "highlight": "x = (-b ± √(b² - 4ac)) / 2a",
+                "content": "Sum α+β = -b/a, Product αβ = c/a.",
+                "tip": "Real roots if D ≥ 0."
+            },
+            {
+                "title": "AP Sum",
+                "highlight": "S_n = n/2 [2a + (n-1)d]",
+                "content": "Sum of first n terms of AP.",
+                "tip": "Also S_n = n/2 (First + Last)."
+            },
+            {
+                "title": "GP Sum (Infinite)",
+                "highlight": "S_∞ = a / (1 - r)",
+                "content": "Valid only when |r| < 1.",
+                "tip": "If r > 1, sum diverges."
+            },
+            {
+                "title": "Log Properties",
+                "highlight": "log(ab) = log a + log b",
+                "content": "log(a^b) = b log a.",
+                "tip": "Change of base: log_b(a) = log a / log b."
+            },
+            {
+                "title": "Complex Cube Roots",
+                "highlight": "1 + ω + ω² = 0  |  ω³ = 1",
+                "content": "Roots of unity. ω = (-1 + i√3)/2.",
+                "tip": "Used frequently in series problems."
+            },
+            {
+                "title": "Distance of Point to Line",
+                "highlight": "d = |ax₁ + by₁ + c| / √(a² + b²)",
+                "content": "Perpendicular distance from point (x₁, y₁) to ax+by+c=0.",
+                "tip": "For distance between parallel lines: |c₁-c₂|/√(a²+b²)."
+            },
+            {
+                "title": "Circle Tangent Condition",
+                "highlight": "c = ± a √(1 + m²)",
+                "content": "Line y = mx + c is tangent to x² + y² = a².",
+                "tip": "Point of contact is (-am/√(1+m²), a/√(1+m²))."
+            },
+            {
+                "title": "Parabola Parametric",
+                "highlight": "(at², 2at)",
+                "content": "General point on y² = 4ax.",
+                "tip": "Tangent at 't' is ty = x + at²."
+            },
+            {
+                "title": "Ellipse Eccentricity",
+                "highlight": "b² = a² (1 - e²)",
+                "content": "For standard ellipse (a > b).",
+                "tip": "Hyperbola: b² = a² (e² - 1)."
+            },
+            {
+                "title": "Standard Limits",
+                "highlight": "lim(x→0) (sin x / x) = 1",
+                "content": "lim(x→0) (e^x - 1)/x = 1.",
+                "tip": "L'Hospital Rule: Differentiate num and den if 0/0 form."
+            },
+            {
+                "title": "Chain Rule",
+                "highlight": "d/dx f(g(x)) = f'(g(x)) ⋅ g'(x)",
+                "content": "Derivative of composite functions.",
+                "tip": "Work from outside in."
+            },
+            {
+                "title": "Integration by Parts",
+                "highlight": "∫ u v dx = u ∫ v dx - ∫ (u' ∫ v dx) dx",
+                "content": "Order of u choice: ILATE.",
+                "tip": "Inverse, Log, Algebra, Trig, Exponent."
+            },
+            {
+                "title": "King's Property",
+                "highlight": "∫(a to b) f(x) = ∫(a to b) f(a+b-x)",
+                "content": "Most useful definite integral property.",
+                "tip": "Often 2I = sum of both forms."
+            },
+            {
+                "title": "Area Under Curve",
+                "highlight": "A = ∫ |y| dx",
+                "content": "Area bounded by curve and x-axis.",
+                "tip": "Subtract lower curve area from upper curve."
+            },
+            {
+                "title": "Vector Dot Product",
+                "highlight": "a ⋅ b = |a||b| cos θ",
+                "content": "Scalar product. Zero if vectors perpendicular.",
+                "tip": "Projection of a on b = (a⋅b)/|b|."
+            },
+            {
+                "title": "Vector Cross Product",
+                "highlight": "|a × b| = |a||b| sin θ",
+                "content": "Vector perpendicular to both a and b.",
+                "tip": "Area of triangle = ½ |a × b|."
+            },
+            {
+                "title": "3D Plane Equation",
+                "highlight": "ax + by + cz + d = 0",
+                "content": "Normal vector n = (a, b, c).",
+                "tip": "Distance from origin = |d|/√(a²+b²+c²)."
+            },
+            {
+                "title": "Bayes Theorem",
+                "highlight": "P(A|B) = P(B|A)P(A) / P(B)",
+                "content": "Probability of cause given effect.",
+                "tip": "Total Probability P(B) is sum of all cases."
+            },
+            {
+                "title": "Variance",
+                "highlight": "σ² = (Σx² / n) - (Σx / n)²",
+                "content": "Variance = Mean of squares - Square of mean.",
+                "tip": "Standard Deviation σ = √Variance."
+            },
+            {
+                "title": "Angle Between Lines",
+                "highlight": "tan θ = |(m₁ - m₂) / (1 + m₁m₂)|",
+                "content": "Angle between two straight lines.",
+                "tip": "If m₁m₂ = -1, lines are perpendicular (90°)."
+            }
+        ]
+    }
+]
