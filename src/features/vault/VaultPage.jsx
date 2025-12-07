@@ -246,7 +246,7 @@ export default function VaultPage() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                 <div>
                     <h1 className="text-3xl font-black tracking-tight text-foreground">Formula Vault <span className="text-primary">.</span></h1>
-                    <p className="text-muted-foreground font-medium">Your math & science cheat sheet.</p>
+                    <p className="text-muted-foreground font-medium">Your math & science cheat sheet. (Live Updated)</p>
                 </div>
 
                 <div className="flex gap-2">
